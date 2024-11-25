@@ -1,8 +1,12 @@
 import React from 'react';
 import "../Styles/MyBooking.css";
+import MyVehicles from './MyVehicles';
 const MyBooking = () => {
   return (
-    <div>MyBooking</div>
+    <div>
+      <h1>My Vehicles</h1>
+      <MyVehicles/>
+    </div>
   )
 }
 

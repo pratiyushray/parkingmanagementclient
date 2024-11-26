@@ -32,7 +32,7 @@ const BodyPage = () => {
         <div id="features-container">
           <div
             id="feature-card"
-            onClick={() => handleNavigation("/booking")}
+            onClick={() => handleNavigation("/")}
             style={{ cursor: "pointer" }}
           >
             <img

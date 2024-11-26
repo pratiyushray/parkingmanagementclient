@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/MyVehicles.css';
+import GettingParkingSpot from './GettingParkingSpot';
 
 const MyVehicles = () => {
   const [vehicles, setVehicles] = useState([]);
@@ -157,6 +158,7 @@ const MyVehicles = () => {
           </div>
         </div>
       )}
+      <GettingParkingSpot/>
     </div>
   );
 };

@@ -30,7 +30,7 @@ const Body = () => {
     try {
       const response = await fetch("http://localhost:5243/api/vehicle/owner", {
         headers: {
-          Authorization: `Bearer ${localStorage.getItem("token")}`, // Pass JWT token
+          Authorization: `Bearer ${localStorage.getItem("token")}`
         },
       });
       if (!response.ok) {

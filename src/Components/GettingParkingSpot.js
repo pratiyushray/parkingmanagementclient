@@ -58,7 +58,7 @@ const GettingParkingSpot = () => {
       const result = await response.json();
       setMessage(result.message || 'Exit processed successfully');
       
-      // Optionally re-fetch the parking history to update the UI
+      //re-fetchparkinghistory
       const updatedResponse = await fetch('http://localhost:5243/api/parkingSpot/history', {
         method: 'GET',
         headers: {
